@@ -156,18 +156,10 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 ## Author
 
 **Susmit Acharya**
-Class 12 Research Project, 2025 |
-Student Council President | UI/UX and AI Enthusiast
+Class 12 Research Project, 2025
 
 ## Advisors and Mentors
 
-**Susmit Acharya**
-Class 12 Research Project, 2025 |
-Student Council President | UI/UX and AI Enthusiast
-
-**Susmit Acharya**
-Class 12 Research Project, 2025 |
-Student Council President | UI/UX and AI Enthusiast
 
 ## License
 
