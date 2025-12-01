@@ -26,7 +26,7 @@ Nivritti AI/
 │       └── segmentation_plot.png
 │   
 ├── frontend/
-│   └── React/HTML templates  --> #Note:  A skeletal UI look, the data written are synthetic and not real SME data but the data is constructed by surveying 123 MSMEs in the Greater Kolkata Area.
+│   └── React/HTML templates  --> #Note:  A skeletal UI look, the data written are synthetic and constructed by surveying 123 MSMEs in the Greater Kolkata Area.
 │   
 └── README.md
 ```
@@ -136,5 +136,3 @@ Assistant Teacher for Computer Applications and Computer Science, Auxlium Conven
 ## License
 
 This project is open for educational and non-commercial use. For commercial use, please contact the author.
-
-
