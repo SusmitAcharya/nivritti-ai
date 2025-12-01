@@ -129,14 +129,15 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 
 1. **Susmit Acharya**
 
-Student AI Research Assistant, Class 12-B, Auxlium Convent School, Barasat.
+   Student AI Research Assistant, Class 12-B, Auxlium Convent School, Barasat.
 
 2. **Soma Chakraborty (advisor)**
 
-Assistant Teacher for Computer Applications and Computer Science, Auxlium Convent School, Barasat.
+   Assistant Teacher for Computer Applications and Computer Science, Auxlium Convent School, Barasat.
 
 ## License
 
 This project is open for educational and non-commercial use. For commercial use, please contact the author.
+
 
 
