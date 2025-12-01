@@ -1,4 +1,4 @@
-# 🧠 Nivritti AI
+# Nivritti AI
 
 **Nivritti AI** is an AI-powered customer analytics and intelligence suite that simulates forecasting, churn prediction, and customer segmentation using structured datasets. It provides data-driven business insights through interpretable models and mock predictive visualizations, making it ideal for academic research, prototype presentations, or early-stage product demos.
 
@@ -31,9 +31,9 @@ Nivritti AI/
 └── README.md
 ```
 
-## 🚀 Modules Present
+## Modules Present
 
-### 🔮 1. Forecast Module
+### 1. Forecast Module
 
 Simulates and visualizes weekly average sales predictions with ±Simulates and visualizes weekly average sales predictions with \xb140% Gaussian noise.
 
@@ -41,14 +41,14 @@ Simulates and visualizes weekly average sales predictions with ±Simulates and v
 python backend/mock_visuals/forecast_module.py
 ```
 
-📜 **Output:**
+**Output:**
 
 - Weekly plot of actual vs predicted sales (`forecast_plot.png`)
 - Uses `sales` and `date` columns for visualization
 
 ---
 
-### 🔁 2. Churn Module
+### 2. Churn Module
 
 Simulates churn likelihoods using a logistic-like function and visualizes actual vs predicted churn probability.
 
@@ -56,14 +56,14 @@ Simulates churn likelihoods using a logistic-like function and visualizes actual
 python backend/mock_visuals/churn_module.py
 ```
 
-📜 **Output:**
+**Output:**
 
 - Churn curve visualization (`churn_plot.png`)
 - Inputs: `last_login`, `support_tickets`, `complaint_rate`, etc.
 
 ---
 
-### 🧩 3. Segmentation Module
+### 3. Segmentation Module
 
 Clusters customers using KMeans and creates segment-wise scatter plots for comparative analysis.
 
@@ -71,7 +71,7 @@ Clusters customers using KMeans and creates segment-wise scatter plots for compa
 python backend/mock_visuals/segmentation_module.py
 ```
 
-📜 **Output:**
+**Output:**
 
 - 2x2 grid of scatter plots, each showing a separate segment's behavioral cluster (`segmentation_plot.png`)
 - Printed **segment profile table**:
@@ -86,7 +86,7 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 
 ---
 
-## 📌 Notes on Data & Models
+## Notes on Data & Models
 
 - This project uses simulated data and mock predictions. Data is constructed by surveying 123 MSMEs in the Greater Kolkata Area. The outputs are **not 100% real-world accurate**, but useful for demonstration and testing.
 - Clustering is done with KMeans; number of clusters set empirically (e.g., 4).
@@ -95,7 +95,7 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 
 ---
 
-## 📈 Potential Applications
+## Potential Applications
 
 | Module       | Business Use Case                          |
 | ------------ | ------------------------------------------ |
@@ -105,7 +105,7 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 
 ---
 
-## ✅ Summary of Key Features
+## Summary of Key Features
 
 - Forecast trends using mock time-series regression logic
 - Churn likelihood estimation with simulated sigmoid mapping
@@ -136,4 +136,5 @@ Assistant Teacher for Computer Applications and Computer Science, Auxlium Conven
 ## License
 
 This project is open for educational and non-commercial use. For commercial use, please contact the author.
+
 
