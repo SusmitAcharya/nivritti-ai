@@ -125,17 +125,18 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 
 ---
 
-## Author
+## Authors
 
-**Susmit Acharya**
+1. **Susmit Acharya**
 
 Student AI Research Assistant, Class 12-B, Auxlium Convent School, Barasat.
 
-**Soma Chakraborty (advisor)**
+2. **Soma Chakraborty (advisor)**
 
 Assistant Teacher for Computer Applications and Computer Science, Auxlium Convent School, Barasat.
 
 ## License
 
 This project is open for educational and non-commercial use. For commercial use, please contact the author.
+
 
