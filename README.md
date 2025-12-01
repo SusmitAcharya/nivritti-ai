@@ -1,4 +1,4 @@
-# 🧠 Nivritti AI – Customer Intelligence Suite
+# 🧠 Nivritti AI
 
 **Nivritti AI** is an AI-powered customer analytics and intelligence suite that simulates forecasting, churn prediction, and customer segmentation using structured datasets. It provides data-driven business insights through interpretable models and mock predictive visualizations, making it ideal for academic research, prototype presentations, or early-stage product demos.
 
@@ -26,39 +26,12 @@ Nivritti AI/
 │       └── segmentation_plot.png
 │   
 ├── frontend/
-│   └── React/HTML templates  --> #Note:  A skeletal UI look, the data written are synthetic and not real SME data
+│   └── React/HTML templates  --> #Note:  A skeletal UI look, the data written are synthetic and not real SME data but the data is constructed by surveying 123 MSMEs in the Greater Kolkata Area.
 │   
 └── README.md
 ```
 
-### 📌 Requirements
-
-- Python 3.10+
-- pip (Python package manager)
-
-### 📦 Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-If not present, generate `requirements.txt` with:
-
-```bash
-pip freeze > requirements.txt
-```
-
-### 📁 File Requirements
-
-Ensure the following CSVs are present in `backend/models/`:
-
-- `forecast_model_data.csv`
-- `churn_data.csv`
-- `segmentation_data.csv`
-
----
-
-## 🚀 Running the Modules
+## 🚀 Modules Present
 
 ### 🔮 1. Forecast Module
 
@@ -86,7 +59,6 @@ python backend/mock_visuals/churn_module.py
 📜 **Output:**
 
 - Churn curve visualization (`churn_plot.png`)
-- Includes synthetic churn probabilities
 - Inputs: `last_login`, `support_tickets`, `complaint_rate`, etc.
 
 ---
@@ -116,7 +88,7 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 
 ## 📌 Notes on Data & Models
 
-- This project uses simulated data and mock predictions. The outputs are **not real-world accurate**, but useful for demonstration.
+- This project uses simulated data and mock predictions. Data is constructed by surveying 123 MSMEs in the Greater Kolkata Area. The outputs are **not 100% real-world accurate**, but useful for demonstration and testing.
 - Clustering is done with KMeans; number of clusters set empirically (e.g., 4).
 - Forecasts include Gaussian noise for realism.
 - Churn probabilities are modeled with sigmoid approximation for demonstration only.
@@ -156,14 +128,10 @@ segment    total_spent    avg_cart_value   visits  days_since_last_visit  loyalt
 ## Author
 
 **Susmit Acharya**
-Class 12 Research Project, 2025
-
-## Advisors and Mentors
-
-<--Yet to write down-->
-
+Student AI Research Assistant, Class 12-B, Auxlium Convent School, Barasat.
+**Soma Chakraborty (advisor)**
+Assistant Teacher for Computer Applications and Computer Science, Auxlium Convent School, Barasat.
 
 ## License
 
 This project is open for educational and non-commercial use. For commercial use, please contact the author.
-
